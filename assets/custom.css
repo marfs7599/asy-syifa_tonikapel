@@ -14,6 +14,9 @@ body {
 .header_contact h3 {
 	margin-top: -2px;
 }
+.body_contact {
+	margin: 0;
+}
 /* Informasi Kontak */
 .body_contact .info_kontak {
 	background-color: lightblue;
@@ -24,14 +27,18 @@ body {
 /* Form Pesan */
 .body_contact .form_pesan {
 	/* background-color: lightgoldenrodyellow; */
+	margin-top: 20px;
 	width: 100%;
 	border-radius: 5px;
 	padding: 2px 15px;
 }
-.btn-primary:hover {
-	background-color: white;
+.btn-primary {
+	float: right;
+}
+.btn .btn-primary:hover {
+	background-color: whitesmoke;
 }
 footer {
-	background-color: rgb(199, 241, 10);
+	background-color: #1ec9e9;
 	text-align: center;
 }
